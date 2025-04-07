@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fefefe;
+  }
+  
+  /* Top Header Navbar */
+  .top-navbar {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .top-navbar .logo {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  
+  .top-navbar .nav-links a {
+    color: #ecf0f1;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 14px;
+    transition: color 0.3s ease;
+  }
+  
+  .top-navbar .nav-links a:hover {
+    color: #1abc9c;
+  }
+  
+  /* Product Section */
+  .product-section {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+  }
+  
+  .section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .section-header h2 {
+    font-size: 22px;
+  }
+  
+  .section-header .view-all {
+    text-decoration: none;
+    font-size: 12px;
+    color: #2c3e50;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .product-cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .card {
+    flex: 1 1 calc(25% - 20px);
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  .image-container {
+    height: 300px;
+    overflow: hidden;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .card h3 {
+    font-size: 14px;
+    margin: 10px 0 5px;
+    text-transform: uppercase;
+  }
+  
+  .card p {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Modern Footer */
+  .modern-footer {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 40px 20px;
+    margin-top: 80px;
+  }
+  
+  .modern-footer .footer-section {
+    flex: 1 1 200px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .modern-footer .footer-section h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: #1abc9c;
+  }
+  
+  .modern-footer .footer-section a {
+    text-decoration: none;
+    color: #ecf0f1;
+    font-size: 14px;
+    margin-bottom: 8px;
+    transition: color 0.3s ease;
+  }
+  
+  .modern-footer .footer-section a:hover {
+    color: #bdc3c7;
+  }
+  
